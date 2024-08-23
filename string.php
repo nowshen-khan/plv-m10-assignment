@@ -9,7 +9,7 @@ function reverseStr($str)
 function vowelCount($str)
 {
     $strSplit = str_split($str);
-    $vowels = ['a', 'e', 'i', 'o', 'u'];
+    $vowels = ['a', 'e', 'i', 'o', 'u','A'];
     $count = 0;
     foreach ($strSplit as $letter) {
         if (in_array($letter, $vowels)) {
